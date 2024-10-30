@@ -1,5 +1,5 @@
 
-function postFeedbackToDiscord() 
+function postFeedbackToDiscord()  {
   var form = FormApp.getActiveForm(); 
   var formResponses = form.getResponses();
   var newResponse = formResponses[formResponses.length-1];
